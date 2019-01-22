@@ -1,0 +1,30 @@
+﻿© Valentin Dubrulle pour Manche Open School - TD PHP/MYSQL - valentin@dubrulle.ovh
+
+But
+Créer une page de login pour accéder à une page de profil. Les pages utilisées devront pouvoir utiliser du HTML/CSS comme du PHP/SQL.
+Ce TP se veut évolutif, vous créerez une page structurelle qui vous permettra d'incorporer différentes technologies selon vos avancées, la base du TP vous amenant à manipuler de l'algorithmie via du PHP et la gestion de la connexion à une base de données. 
+
+
+Etapes
+Sentez-vous libres de sectionner chacune de ces étapes en autant de sous-étapes que nécessaires, selon vos avancées et vos compétences.
+Dans le même esprit, veillez à prévoir les évolutions de vos pages en y intégrant au fur et à mesure les différentes fonctionnalités envisagées (comme la déconnexion, la mise à jour des champs de profil, les messages de validation ou d'erreur à afficher à l'utilisateur, etc).
+
+1) Créer une page index.php contenant toute la structure HTML qui permettra d'afficher une page propre et utilisable.
+
+2) Préparer dans cette page un formulaire contenant un champ "login" et un champ "mot de passe". Ces données collectées serviront sur une autre page de traitement en PHP.
+
+3) Préparez une page PHP login.php qui utilisera les données collectées en les comparant à une BDD existante. Cette page évoluera au fur et à mesure de la prise en compte des cas d'utilisation accidentels (annonce à l'utilisateur des erreurs rencontrées, prise en charge d'un rechargement de la page inattendu, arrivée directe sur cette page sans passer par index.php, etc)
+
+4) Une fois la comparaison validée, l'utilisateur arrivera sur une page profil.php, qui affichera des données de session de l'utilisateur suivant le login/mdp renseigné : nom, prénom, adresse postale, adresse mail, numéro de téléphone, avatar, biographie (fictive).
+La page devra afficher un bouton qui déclanchera la déconnexion de l'utilisateur (fin de session PHP) et sa redirection vers l'index.
+
+5) Prévoyez sur cette page profil.php des boutons pour de futures pages : mise à jour des données de l'utilisateur , création d'un nouveau profil d'utilisateur (considérant que n'importe quel utilisateur peut en créer un nouveau, pour les besoins de l'exercice)
+
+6) (pour les maitres Shaolin du code) : utilisez des frameworks tels que Bootstrap pour afficher des pages HTML/CSS harmonieuses et ergonomiques, jQuery et jQueryUI pour les rendre dynamiques, Laravel et/ou Symphony pour optimiser votre code PHP.
+
+7) May the Force be with you. Always. :) 
+
+
+Livrables
+
+Vendredi 14 Décembre, vous transmettrez AVANT 16H un mail circonstancié à m.rego@mancheopenschool.fr avec une archive en pièce jointe contenant le dossier de votre site (HTML, PHP et ressources annexes), la base de données utilisée et le virtualhost appliqué. Vous devrez aussi joindre à cette archive un fichier PDF contenant toutes les informations techniques nécessaires à la mise en oeuvre de votre site sur un serveur (qui vous êtes, comment vous contacter en cas de problème, les login/mdp que vous jugerez nécessaires : BDD, connexion sur la page index avec un utilisateur standard, etc - considérant que Ameline la technicienne en charge n'aura pas de connaissances spécifiques en gestion de BDD. Mettez-vous à sa place et mâchez-lui le travail :) )

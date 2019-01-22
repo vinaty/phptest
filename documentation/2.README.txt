@@ -1,0 +1,102 @@
+﻿© Valentin Dubrulle pour Manche Open School - TD PHP/MYSQL - valentin@dubrulle.ovh
+
+
+Bonjour,
+
+Ce dossier a été réalisé dans le cadre d'un TP a la MOS dans lequel il nous fallait utiliser PHP afin de tester et utiliser les sessions et leurs liens avec une base de donnée (par la suite, elle sera appelé BDD) en MySQL.
+Les images utilisées dans cette archive ne sont pas toutes libres de droit, merci de ne les utiliser que
+dans le cadre de la vérification des données fournies au travers de ce TP.
+
+/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\
+Si ce paragraphe ne vous est pas compréhensible, finissez le fichier et ensuite allez voir "5.config.txt" dans le sous-dossier documentation, tout se passera bien.
+/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\
+
+Le README est structuré en plusieurs parties (le numéro correspond au numéro de page):
+	1 - mes informations
+	2 - structure du dossier
+	3 - informations détaillées sur les sous-dossier
+	4 - identifiants pour l'utilisation du site
+
+############################################
+#                                          #
+#                   Mes informations:      #
+#                                          #
+############################################
+
+NOM:
+	Dubrulle
+
+PRÉNOM:
+	Valentin
+
+E-MAIL:
+	valentin@dubrulle.ovh
+
+Numéro de téléphone:
+	06.82.12.35.83
+############################################
+#                                          #
+#                structure du dossier:     #
+#                                          #
+############################################
+
+- README.pdf (de préférence à lire avant de commencer)
+- un dossier html reprenant plusieurs sous-dossiers et fichiers:
+	+ adminer
+	+ avatar
+	+ css
+	+ documentation
+	+ un fichier index.php (page d'accueil du site qui renvoie vers "/php/index.php")
+	+ un fichier fond.png (qui est le fond du site web)
+	+ favicon
+	+ php
+################################################
+#                                              #
+#informations détaillées sur les sous-dossier: #
+#                                              #
+################################################
+
++ adminer:
+	contient adminer.php et adminer.css. Avoir ces documents dans la racine du site n'est pas conseillé (l’accès à ce site avec un lien sur l'index du site non plus). Cependant, dans le but de montrer ces informations dans le cadre du TD, j'ai préféré offrir un accès rapide et facile à cette BDD.
++ avatar:
+	contient les photos de profil des utilisateurs.
++ css:
+	contient la feuille de style du site web.
++ documentation:
+	contient dans l'ordre:
+		- le README format txt et PDF
+		- le récapitulatif du TD
+		- les étapes que j'ai suivi dans l'ordre chronologique
+		- comment configurer le serveur web
+		- l'arborescence du dossier racine
+		- la base de donnée SQL
++ favicon:
+	contient la favicon (icône informatique symbolisant un site web) du site en plusieurs format.
++ php:
+	contient:
+		- action.php => regroupe toutes les fonctions utilise par le site
+		- avatar.php => page de modification de l'avatar
+		- creer.php => page de création de profil
+		- deco.php => fonction de déconnexion
+		- echec.php => page ou l'utilisateur arrive si le site rencontre un problème
+		- footer.php => fin d'une page du site
+		- header.php => début d'une page de site et, également, menu du site
+		- index.php => page d'accueil du site
+		- landing.php => page du profil
+		- modifier.php => page de modification du profil
+############################################
+#                                          #
+# identifiants pour l'utilisation du site: #
+#                                          #
+############################################
+
+L’accès a la BDD se fait via l'identifiant et le mot de passe "testmosuser". Si cela ne fonctionne pas, réferez-vous au fichier "5.config.txt" dans le sous-dossier documentation, les indications s'y trouvent très probablement.
+
+Afin de cacher dans la BDD les mot de passe, ceux-ci ont été cryptés. Voici la liste de ces mots de passe à utiliser afin de tester le site:
+		login		|	mot de passe
+		________________|____________________
+		Aproviste	|	mdpAlain
+		Jouzi		|	mdpJacques
+		Pochon		|	mdpPaul
+		valentin	|	valentin
+		test		|	test

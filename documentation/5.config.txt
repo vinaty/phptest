@@ -1,0 +1,42 @@
+﻿© Valentin Dubrulle pour Manche Open School - TD PHP/MYSQL - valentin@dubrulle.ovh
+
+
+Si vous etes sur ce document, c'est que vous essayez de configurer un serveur web afin de tester mon site.
+Les etapes a realiser sur votre terminal (realise sur une Debian si vous avez une autre distribution, il faudras vous renseigner):
+
+	1) Mise en place de l'environnement
+
+sudo apt update
+sudo apt upgrade
+sudo apt install apache2 php libapache2-mod-php mariadb-server php-mysql
+sudo apt install php-curl php-gd php-intl php-json php-mbstring php-xml php-zip adminer
+
+	2) placer l'archive a l'endroit souhaite
+A ce stade, il vous faut placer le dossier "www" de l'archive decompresser dans votre dossier /var
+(ce dossier est deja existant, remplacer celui que vous avez par celui fourni)
+
+
+	3) preparation de la base de donnee
+sudo mysql
+CREATE DATABASE testmos;
+GRANT ALL PRIVILEGES ON testmos.* TO 'testmosuser'@'localhost' IDENTIFIED BY 'testmosuser';
+FLUSH PRIVILEGES;
+QUIT;
+sudo mysql testmos < /var/www/html/documentation/7.users.sql
+(l'installation de MySQL n'est pas securise a ce stade, il sera bon de le faire par la suite)
+
+	4) tentative de connexion
+Ouverz votre navigateur internet et entrez dans la barre de recherche :
+http://localhost/
+
+	5) etre fier de vous ou me contacter
+Si jamais je ne peux vous feliciter pour le travail fait, je rappelle mes coordonnees:
+
+NOM:
+	Dubrulle
+PRÉNOM:
+	Valentin
+E-MAIL:
+	valentin@dubrulle.ovh
+Numéro de téléphone:
+	0682123583

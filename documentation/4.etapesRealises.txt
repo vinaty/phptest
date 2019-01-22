@@ -1,0 +1,60 @@
+﻿© Valentin Dubrulle pour Manche Open School - TD PHP/MYSQL - valentin@dubrulle.ovh
+
+
+1) création de la page d'accueil
+	Ici, le but était d'avoir le socle qui me permettrais d'avoir une demande de nom uniquement.
+
+2) test de la session
+	Suite a la demande du nom, il fallait qu'une session soit créé et retienne le nom entre.
+
+3) connexion a la BDD
+	Avec le TP, une base de données était fourni. J'ai cherche a initier une connexion afin d’établir le lien entre le nom entrer et cette base de donnes et de refuser une connexion avec un message si le nom n'est pas dans la BDD.
+
+4) afficher les informations utilisateurs (test BDD)
+	Une fois la connexion établie, il faut un affichage des informations principales concernant notre utilisateur.
+
+5) avoir une connexion avec login et mot de passe
+	Tout est dans le titre, on remplace la page faite pour la première étape avec une demande login/mot de passe classique.
+
+6) mettre en page
+	Créer une feuille de style CSS et commencer a la mettre en forme.
+
+7) modifier la nomenclature du site
+	Avoir un header et un footer en php afin de n'avoir qu'un appel sur chaque page du site.
+
+8) penser a la sécurité
+	Modifier tous les MDP dans la BDD en les cryptant, modifier aussi les règles de vérification afin de ne pas être bloquer.
+
+9) permettre aux utilisateurs de modifier leurs informations dans la BDD.
+	Création de la page HTML ainsi que de la fonction qui va permettre cette modification.
+
+10) création d'un nouveau profil
+      En admettant que tout les utilisateurs peuvent créer un autre profil, création d'une page "nouveau profil" avec sa fonction inhérente.
+
+11) modification de l’avatar
+      Création d'une possibilité pour les utilisateurs de modifier leurs avatars. Il n'y a cependant pas d'avatar par défaut.
+
+12)entrée e mail / téléphone dans la BDD
+     ajout dans la BDD de ces deux champs.
+
+13)vérification automatique de l'email
+     modification des fonctions création / modification de comptes afin que l'email soit vérifie automatiquement.
+
+14) vérification du numéro de téléphone 
+    modification des fonctions création / modification de comptes afin que le téléphone soit vérifié automatiquement.
+
+15) améliorations des avatars
+     Création d'un avatar par défaut, plusieurs extensions possible.
+
+16) Revoir la nomenclature
+   Création des dossiers, modifications des liens afin de gagner en lisibilité
+
+17) Menu de choix entre plusieurs avatars par défaut
+
+18) Intégration d'une favicon
+
+19) Réflexion sur l'optimisation
+	A l'origine, il y avait plusieurs documents éparpillés regroupant les fonctions. Le but était donc d'avoir moins de fichiers tout en gardant l'ensemble des fonctions.
+	Toutes les photos ont également été compressé.
+20) Ajout de ReCaptcha v3
+	La V3 a ete choisie car elle ne coupe pas l'utilisateur dans sa navigation. Sauf en cas de doute quand a son identite.

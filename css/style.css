@@ -1,0 +1,158 @@
+/*﻿© Valentin Dubrulle pour Manche Open School - TD PHP/MYSQL*/
+.secret {
+height: 10px;
+width: 10px;
+float: right;
+opacity: 0%;
+}
+nav {
+color: red;
+border-radius: 10px;
+border-width: 1px;
+width: 70%;
+margin-left: auto;
+margin-right: auto;
+}
+body {
+color: whitesmoke;
+text-align: center;
+background-image: url("../fond.png");
+background-color: #141010;
+height: 500px;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+img {
+height: 100px;
+width: 100px;
+border-radius: 10px;
+border-width: 1px;
+}
+span{
+color: #FF0000;
+display: inline-block;
+background-color: #252525;
+width: 100px;
+height: 15px;
+padding: 10px;
+text-align: center;
+border-radius: 10px;
+font-weight: bold;
+}
+a {
+display: inline-block;
+width: 115px;
+height: 40px;
+background: #141010;
+padding: 10px;
+text-align: center;
+border-radius: 10px;
+border-width: 1px;
+border-bottom-style: solid;
+border-left-style: solid;
+border-right-style: hidden;
+border-top-style: hidden;
+border-color: red;
+color: red;
+font-weight: bold;
+}
+a:hover {
+background-color: black;
+border-bottom-style: hidden;
+border-left-style: hidden;
+border-right-style: solid;
+border-top-style: solid;
+}
+.space {
+height: 10%;
+margin-left: 35%;
+margin-right: 35%;
+}
+ul {
+padding:0;
+margin:0 auto;
+list-style-type:none;
+text-align: center;
+line-height: 35px;
+}
+li {
+margin-left:2px;
+float:left; /*pour IE*/
+display: inline;
+text-align: center;
+}
+ul li a {
+display: inline-block;
+float:left;   
+width:100px;
+background-color:#141010;
+color:black;
+text-decoration:none;
+text-align:center;
+padding:5px;
+border:2px solid;
+border-color:#FF0000 #000000 #000000 #FF0000;
+}
+ul li a:hover {
+background-color: black;
+border-color:#000000 #FF0000 #FF0000 #000000;
+} 
+p {
+border-radius: 10px;
+border-width: 1px;
+margin-left: 15%;
+margin-right: 15%;
+}
+input[type="text"], textarea {
+background-color : #2D2828; 
+}
+input[type="submit"]{
+background-color: #141010;
+color: #FFFFFF;
+}
+input[type="submit"]:hover{
+background-color: #FFFFFF;
+color: #141010;
+}
+input[type="file"] {
+background-color : #2D2828; 
+}
+input[type="image"]{
+height: 100px;
+width: 100px;
+}
+button {
+padding: 0;
+margin: 0;
+background-color: transparent;
+border-style: none;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 0 black; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #D10707; 
+}
+i {
+  border: solid black;
+  border-width: 0 15px 15px 0;
+  display: inline-block;
+  padding: 15px;
+}
+i:hover{
+border-color: #FF0000;
+}
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
